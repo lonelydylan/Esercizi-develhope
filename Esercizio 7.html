@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <style>
-table, th, td {
-  border: 1px solid black;
-  text-align: center;
-  padding: 10px;
-  background-color: #0241;
-}
-</style>
-</head>
-<body>
-<form action="">
-<section>
-Email <input type="email" name="" id="" style="width: 100px">
-Password <input type="password" name="pass" id="pw" style="width: 75px"> <br>
-Nome  <input type="text" id="nome" style="width: 75px"> Cognome <input type="text" id="cognome" style="width: 75px"> 
-Data di nascita <input type="date" name="nascita" id="bday"> 
-Numero di telefono <input type="number" name="" id=""> <br>
-
-<table style="border: black solid 2px; cellspan: 10px">
-    <caption>Scegli il piano tariffario:</caption>
-<thead>
-    
-   <tr>
-    <td>Free </td>
-    <td>Floppa €1/mese</td>
-    <td>Doge €5/mese</td> 
-    </tr> 
-</thead>
-<tbody>
-    <tr>
-    <td><input type="radio" name="piano" id="selettore1"></td>
-    <td><input type="radio" name="piano" id="selettore2"></td>
-    <td><input type="radio" name="piano" id="selettore3"></td> 
-    </tr>
-</tbody>
-</table>
-Voglio ottenere i vantaggi pro con un supplemento di €5 mensili<input type="checkbox" name="pro" id="extrapro"> <br>
-</section>
-
-<section>
-Numero carta <input type="text" name="numerocarta" id="card" minlenght="0" maxlength="20"> <br>
-CVC <input type="number" name="cvc" id="cvcnumber"> <br>
-Mese di scadenza carta <input type="number" name="mesescadenza" id="monthexp" maxlength="2" style="width: 25px">
-Anno scadenza carta <input type="number" name="annoscadenza" id="yearexp" maxlength="4" style="width: 50px">
-Indirizzo di fatturazione <input type="text" name="residenza" id="address">
-</section>
-</form>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        background-color: #0241
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <section>Email <input type="email" name="" id="" style="width:100px"> Password <input type="password" name="pass" id="pw" style="width:75px">
+        <br>Nome <input type="text" id="nome" style="width:75px"> Cognome <input type="text" id="cognome" style="width:75px"> Data di nascita <input type="date" name="nascita" id="bday"> Numero di telefono <input type="number" name="" id="">
+        <br>
+        <table style="border:#000 solid 2px;cellspan:10px">
+          <caption>Scegli il piano tariffario:</caption>
+          <thead>
+            <tr>
+              <td>Free</td>
+              <td>Floppa €1/mese</td>
+              <td>Doge €5/mese</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input type="radio" name="piano" id="selettore1">
+              </td>
+              <td>
+                <input type="radio" name="piano" id="selettore2">
+              </td>
+              <td>
+                <input type="radio" name="piano" id="selettore3">
+              </td>
+            </tr>
+          </tbody>
+        </table>Voglio ottenere i vantaggi pro con un supplemento di €5 mensili <input type="checkbox" name="pro" id="extrapro">
+        <br>
+      </section>
+      <section>Numero carta <input type="text" name="numerocarta" id="card" minlenght="0" maxlength="20">
+        <br>CVC <input type="number" name="cvc" id="cvcnumber">
+        <br>Mese di scadenza carta <input type="number" name="mesescadenza" id="monthexp" maxlength="2" style="width:25px"> Anno scadenza carta <input type="number" name="annoscadenza" id="yearexp" maxlength="4" style="width:50px"> Indirizzo di fatturazione <input type="text" name="residenza" id="address">
+      </section>
+    </form>
+    <button>Registrati premendo su questo bottone davvero lungo</button>
+  </body>
 </html>
